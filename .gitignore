@@ -1,0 +1,33 @@
+contact.php
+
+# Config / credentials
+.env
+.env.local
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependency / build artifacts
+node_modules/
+dist/
+build/
+.cache/
+*.log
+
+# Package managers
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Coverage / reports
+coverage/
+*.lcov
+
+# Project files (requested to ignore)
+
+robots.txt
+./phpmailer
+phpmailer/
